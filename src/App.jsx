@@ -29,7 +29,7 @@ function App() {
   return (
     <div style={{ textAlign: "center" }}>
       <h1>Pokemon Friends</h1>
-      <button className="btn" onClick={generateRandomName}>
+      <button className="button-33" onClick={generateRandomName}>
         Click for a Pokemon Friend
       </button>
       <h1>Pokemon Name: {randomName}</h1>
